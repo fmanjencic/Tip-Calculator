@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Tip calculator app</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id ="title-container">
+  <h1 class="title">SPLI<br>TTER</h1>
+</div>
+
+  <div class="container-main">
+        <div class="container-calc">
+            <div id="bill">
+                <span id="bill-text">Bill</span><br>
+                <input id="bill-amount" placeholder="0">
+            </div>
+            <div class="select-tip">
+                <span class="select-tip-text">Select Tip %</span>
+                <div class="tip-buttons">
+                    <button class="tip-button-style" value="0.05">5%</button>
+                    <button class="tip-button-style" value="0.10">10%</button>
+                    <button class="tip-button-style " value="0.15">15%</button>
+                    <button class="tip-button-style" value="0.25">25%</button>
+                    <button class="tip-button-style" value="0.50">50%</button>
+                    <input id="custom-input" type="text" placeholder="Custom">
+                </div>
+            </div>
+            <div id="num-people">
+                <span id="numpeople-text">Number of People </span><span class="cant-be-zero">Can't be zero</span><br>
+                <input id="numpeople-amount" class="numpeople-amount" placeholder="0">
+            </div>
+        </div>
+        <div class="container-tips">
+            <div class="tip-person">
+                <span id="tip-amount">Tip Amount<br><span class="person">/ person</span></span>
+                <span id="total">$0.00</span>
+            </div>
+            <div class="total-person">
+                <span id="total-per-person">Total<br><span class="person">/ person</span></span>
+                <span id="total2">$0.00</span>
+            </div>
+            <div class="button">
+                <button id="resetbutton">Reset</button>
+                </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
