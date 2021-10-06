@@ -22,18 +22,7 @@ body {
 
 /* Header */
 
-#title-container {
-  display: flex;
-  justify-content: center;
-}
 
-.title{
-    position: fixed;
-    top: 45px;
-    letter-spacing: 14px;
-    color: hsl(183, 100%, 15%);
-    font-weight: bold;
-}
 
 .container-main {
 
